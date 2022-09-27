@@ -1,0 +1,20 @@
+C:\Users\bhoga\source\repos\MarksManagementLibrary\MarksManagementLibrary\obj\Debug\MarksManagementLibrary.csprojAssemblyReference.cache
+C:\Users\bhoga\source\repos\MarksManagementLibrary\MarksManagementLibrary\obj\Debug\MarksManagementLibrary.csproj.CoreCompileInputs.cache
+C:\Users\bhoga\source\repos\MarksManagementLibrary\MarksManagementLibrary\bin\Debug\MarksManagementLibrary.dll.config
+C:\Users\bhoga\source\repos\MarksManagementLibrary\MarksManagementLibrary\bin\Debug\MarksManagementLibrary.dll
+C:\Users\bhoga\source\repos\MarksManagementLibrary\MarksManagementLibrary\bin\Debug\MarksManagementLibrary.pdb
+C:\Users\bhoga\source\repos\MarksManagementLibrary\MarksManagementLibrary\obj\Debug\MarksManagementLibrary.dll
+C:\Users\bhoga\source\repos\MarksManagementLibrary\MarksManagementLibrary\obj\Debug\MarksManagementLibrary.pdb
+C:\Users\bhoga\Desktop\MarksManagementLibrary\MarksManagementLibrary\bin\Debug\MarksManagementLibrary.dll.config
+C:\Users\bhoga\Desktop\MarksManagementLibrary\MarksManagementLibrary\bin\Debug\MarksManagementLibrary.dll
+C:\Users\bhoga\Desktop\MarksManagementLibrary\MarksManagementLibrary\bin\Debug\MarksManagementLibrary.pdb
+C:\Users\bhoga\Desktop\MarksManagementLibrary\MarksManagementLibrary\obj\Debug\MarksManagementLibrary.csproj.CoreCompileInputs.cache
+C:\Users\bhoga\Desktop\MarksManagementLibrary\MarksManagementLibrary\obj\Debug\MarksManagementLibrary.dll
+C:\Users\bhoga\Desktop\MarksManagementLibrary\MarksManagementLibrary\obj\Debug\MarksManagementLibrary.pdb
+C:\Users\bhoga\Desktop\HARSH SOC\MarksManagementLibrary\MarksManagementLibrary\bin\Debug\MarksManagementLibrary.dll.config
+C:\Users\bhoga\Desktop\HARSH SOC\MarksManagementLibrary\MarksManagementLibrary\bin\Debug\MarksManagementLibrary.dll
+C:\Users\bhoga\Desktop\HARSH SOC\MarksManagementLibrary\MarksManagementLibrary\bin\Debug\MarksManagementLibrary.pdb
+C:\Users\bhoga\Desktop\HARSH SOC\MarksManagementLibrary\MarksManagementLibrary\obj\Debug\MarksManagementLibrary.csprojAssemblyReference.cache
+C:\Users\bhoga\Desktop\HARSH SOC\MarksManagementLibrary\MarksManagementLibrary\obj\Debug\MarksManagementLibrary.csproj.CoreCompileInputs.cache
+C:\Users\bhoga\Desktop\HARSH SOC\MarksManagementLibrary\MarksManagementLibrary\obj\Debug\MarksManagementLibrary.dll
+C:\Users\bhoga\Desktop\HARSH SOC\MarksManagementLibrary\MarksManagementLibrary\obj\Debug\MarksManagementLibrary.pdb
