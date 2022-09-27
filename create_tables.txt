@@ -1,0 +1,18 @@
+CREATE TABLE [dbo].[Users]
+(
+	[UserID] NVARCHAR(50) NOT NULL PRIMARY KEY, 
+    [UserName] NVARCHAR(50) NOT NULL, 
+    [Password] NVARCHAR(50) NULL
+);
+
+Connection string ::
+Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=MarksManagementDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
+
+CREATE TABLE [dbo].[MarksRecords] (
+    [UserID]   NVARCHAR (50) NOT NULL,
+    [Semester] INT           NOT NULL,
+    [Subject1] INT           NOT NULL,
+    [Subject2] INT           NOT NULL,
+    [Subject3] INT           NOT NULL,
+    PRIMARY KEY CLUSTERED ([Semester] ASC, [UserID] ASC)
+);
