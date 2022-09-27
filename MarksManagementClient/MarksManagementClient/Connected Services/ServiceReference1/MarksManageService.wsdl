@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="MarksManageService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8000/MarksManageService?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8000/MarksManageService?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8000/MarksManageService?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/MarksManagementLibrary" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IMarksManageService_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IMarksManageService_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarksManageService_Register_InputMessage">
+    <wsdl:part name="parameters" element="tns:Register" />
+  </wsdl:message>
+  <wsdl:message name="IMarksManageService_Register_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarksManageService_AddMarks_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddMarks" />
+  </wsdl:message>
+  <wsdl:message name="IMarksManageService_AddMarks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddMarksResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarksManageService_DeleteMarksRecordBySem_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteMarksRecordBySem" />
+  </wsdl:message>
+  <wsdl:message name="IMarksManageService_DeleteMarksRecordBySem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteMarksRecordBySemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarksManageService_UpdateMarks_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMarks" />
+  </wsdl:message>
+  <wsdl:message name="IMarksManageService_UpdateMarks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMarksResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMarksManageService_SearchByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchByID" />
+  </wsdl:message>
+  <wsdl:message name="IMarksManageService_SearchByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchByIDResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IMarksManageService">
+    <wsdl:operation name="Login">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarksManageService/Login" message="tns:IMarksManageService_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarksManageService/LoginResponse" message="tns:IMarksManageService_Login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Register">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarksManageService/Register" message="tns:IMarksManageService_Register_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarksManageService/RegisterResponse" message="tns:IMarksManageService_Register_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddMarks">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarksManageService/AddMarks" message="tns:IMarksManageService_AddMarks_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarksManageService/AddMarksResponse" message="tns:IMarksManageService_AddMarks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMarksRecordBySem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarksManageService/DeleteMarksRecordBySem" message="tns:IMarksManageService_DeleteMarksRecordBySem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarksManageService/DeleteMarksRecordBySemResponse" message="tns:IMarksManageService_DeleteMarksRecordBySem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMarks">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarksManageService/UpdateMarks" message="tns:IMarksManageService_UpdateMarks_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarksManageService/UpdateMarksResponse" message="tns:IMarksManageService_UpdateMarks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMarksManageService/SearchByID" message="tns:IMarksManageService_SearchByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMarksManageService/SearchByIDResponse" message="tns:IMarksManageService_SearchByID_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IMarksManageService" type="tns:IMarksManageService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/IMarksManageService/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Register">
+      <soap:operation soapAction="http://tempuri.org/IMarksManageService/Register" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddMarks">
+      <soap:operation soapAction="http://tempuri.org/IMarksManageService/AddMarks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMarksRecordBySem">
+      <soap:operation soapAction="http://tempuri.org/IMarksManageService/DeleteMarksRecordBySem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMarks">
+      <soap:operation soapAction="http://tempuri.org/IMarksManageService/UpdateMarks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchByID">
+      <soap:operation soapAction="http://tempuri.org/IMarksManageService/SearchByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MarksManageService">
+    <wsdl:port name="BasicHttpBinding_IMarksManageService" binding="tns:BasicHttpBinding_IMarksManageService">
+      <soap:address location="http://localhost:8000/MarksManageService/MarksManageSerivce" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

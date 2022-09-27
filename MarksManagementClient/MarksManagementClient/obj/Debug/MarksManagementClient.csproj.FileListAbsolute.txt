@@ -1,0 +1,9 @@
+C:\Users\bhoga\Desktop\HARSH SOC\MarksManagementClient\MarksManagementClient\bin\Debug\MarksManagementClient.exe.config
+C:\Users\bhoga\Desktop\HARSH SOC\MarksManagementClient\MarksManagementClient\bin\Debug\MarksManagementClient.exe
+C:\Users\bhoga\Desktop\HARSH SOC\MarksManagementClient\MarksManagementClient\bin\Debug\MarksManagementClient.pdb
+C:\Users\bhoga\Desktop\HARSH SOC\MarksManagementClient\MarksManagementClient\obj\Debug\MarksManagementClient.Form1.resources
+C:\Users\bhoga\Desktop\HARSH SOC\MarksManagementClient\MarksManagementClient\obj\Debug\MarksManagementClient.Properties.Resources.resources
+C:\Users\bhoga\Desktop\HARSH SOC\MarksManagementClient\MarksManagementClient\obj\Debug\MarksManagementClient.csproj.GenerateResource.cache
+C:\Users\bhoga\Desktop\HARSH SOC\MarksManagementClient\MarksManagementClient\obj\Debug\MarksManagementClient.csproj.CoreCompileInputs.cache
+C:\Users\bhoga\Desktop\HARSH SOC\MarksManagementClient\MarksManagementClient\obj\Debug\MarksManagementClient.exe
+C:\Users\bhoga\Desktop\HARSH SOC\MarksManagementClient\MarksManagementClient\obj\Debug\MarksManagementClient.pdb

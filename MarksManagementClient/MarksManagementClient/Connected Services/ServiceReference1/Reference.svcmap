@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4f608ae2-fa23-46fe-ad4d-9c72864f8a71" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/MarksManageService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MarksManageService.xsd" MetadataType="Schema" ID="d6d07bbd-ffbc-46a2-a13c-a0a35105702e" SourceId="1" SourceUrl="http://localhost:8000/MarksManageService?xsd=xsd1" />
+    <MetadataFile FileName="MarksManageService.wsdl" MetadataType="Wsdl" ID="8cbfa1c4-d07b-4a25-98fd-d88347fe1eef" SourceId="1" SourceUrl="http://localhost:8000/MarksManageService?wsdl" />
+    <MetadataFile FileName="MarksManageService1.xsd" MetadataType="Schema" ID="fcb892fe-8eb3-457c-91c6-b98056afca93" SourceId="1" SourceUrl="http://localhost:8000/MarksManageService?xsd=xsd0" />
+    <MetadataFile FileName="MarksManageService2.xsd" MetadataType="Schema" ID="f74e0b20-c925-45b2-b56b-725867108cc4" SourceId="1" SourceUrl="http://localhost:8000/MarksManageService?xsd=xsd2" />
+    <MetadataFile FileName="MarksManageService.disco" MetadataType="Disco" ID="4681f7c2-60ce-4887-909e-762ede04d4bc" SourceId="1" SourceUrl="http://localhost:8000/MarksManageService?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
