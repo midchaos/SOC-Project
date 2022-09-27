@@ -1,4 +1,4 @@
-# SOC-Project
+# Service Oriented Computing Project
 
 READ ME :
 
